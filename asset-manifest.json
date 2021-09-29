@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/college-infos-react/static/css/main.4a4137e4.chunk.css",
-    "main.js": "/college-infos-react/static/js/main.82995324.chunk.js",
-    "main.js.map": "/college-infos-react/static/js/main.82995324.chunk.js.map",
+    "main.js": "/college-infos-react/static/js/main.39bf180a.chunk.js",
+    "main.js.map": "/college-infos-react/static/js/main.39bf180a.chunk.js.map",
     "runtime-main.js": "/college-infos-react/static/js/runtime-main.6d64202c.js",
     "runtime-main.js.map": "/college-infos-react/static/js/runtime-main.6d64202c.js.map",
     "static/js/2.463be0e9.chunk.js": "/college-infos-react/static/js/2.463be0e9.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.6d64202c.js",
     "static/js/2.463be0e9.chunk.js",
     "static/css/main.4a4137e4.chunk.css",
-    "static/js/main.82995324.chunk.js"
+    "static/js/main.39bf180a.chunk.js"
   ]
 }

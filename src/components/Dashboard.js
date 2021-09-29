@@ -24,6 +24,7 @@ const Dashboard = () => {
     let datasets = {};
     datasets["label"] = label;
     datasets["data"] = mainData.map((dt) => dt.total);
+    datasets["radius"] = "70%";
     datasets["backgroundColor"] = mainData.map(() => getRandomColor());
     return { labels, datasets: [datasets] };
   };

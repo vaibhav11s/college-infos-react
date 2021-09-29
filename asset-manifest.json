@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/college-infos-react/static/css/main.4a4137e4.chunk.css",
+    "main.js": "/college-infos-react/static/js/main.82995324.chunk.js",
+    "main.js.map": "/college-infos-react/static/js/main.82995324.chunk.js.map",
+    "runtime-main.js": "/college-infos-react/static/js/runtime-main.6d64202c.js",
+    "runtime-main.js.map": "/college-infos-react/static/js/runtime-main.6d64202c.js.map",
+    "static/js/2.463be0e9.chunk.js": "/college-infos-react/static/js/2.463be0e9.chunk.js",
+    "static/js/2.463be0e9.chunk.js.map": "/college-infos-react/static/js/2.463be0e9.chunk.js.map",
+    "index.html": "/college-infos-react/index.html",
+    "static/css/main.4a4137e4.chunk.css.map": "/college-infos-react/static/css/main.4a4137e4.chunk.css.map",
+    "static/js/2.463be0e9.chunk.js.LICENSE.txt": "/college-infos-react/static/js/2.463be0e9.chunk.js.LICENSE.txt",
+    "static/media/college1.01961323.jpg": "/college-infos-react/static/media/college1.01961323.jpg",
+    "static/media/collegelogo2.c752ea09.jpeg": "/college-infos-react/static/media/collegelogo2.c752ea09.jpeg",
+    "static/media/student-icon.8defb138.png": "/college-infos-react/static/media/student-icon.8defb138.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6d64202c.js",
+    "static/js/2.463be0e9.chunk.js",
+    "static/css/main.4a4137e4.chunk.css",
+    "static/js/main.82995324.chunk.js"
+  ]
+}

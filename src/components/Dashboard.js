@@ -20,6 +20,7 @@ const Dashboard = () => {
   const [coursesData, setCoursesData] = useState(null);
 
   const makeData = (mainData, label) => {
+    mainData.splice(7, 30);
     let labels = mainData.map((dt) => dt._id);
     let datasets = {};
     datasets["label"] = label;
@@ -42,9 +43,18 @@ const Dashboard = () => {
 
   const onClick = (name, a) => {
     let query;
-    if (name === "City stats") query = citiesData.labels?.[a?.[0]?.index];
-    if (name === "State stats") query = stateData.labels?.[a?.[0]?.index];
-    if (name === "Courses stats") query = coursesData.labels?.[a?.[0]?.index];
+    if (name === "City stats") {
+      query = citiesData.labels?.[a?.[0]?.index];
+      name = "city";
+    }
+    if (name === "State stats") {
+      query = stateData.labels?.[a?.[0]?.index];
+      name = "state";
+    }
+    if (name === "Courses stats") {
+      query = coursesData.labels?.[a?.[0]?.index];
+      name = "courses";
+    }
     if (query) history.push(`/colleges?${name}=${query}`);
   };
 

@@ -3,7 +3,7 @@ import { Doughnut } from "react-chartjs-2";
 
 const DougunutX = ({ onClick, name, data }) => {
   const paperStyle = {
-    backgroundColor: "rgb(255 255 255 / 64%)",
+    backgroundColor: "rgb(77 76 76 / 43%)",
     margin: "6px",
   };
   const showLegend = useMediaQuery("(min-width:600px)");
@@ -14,13 +14,22 @@ const DougunutX = ({ onClick, name, data }) => {
           data={data}
           options={{
             onClick: (_, a) => onClick(name, a),
+            cutout: "80%",
             plugins: {
-              title: { text: name, display: true, font: { size: 20 } },
+              title: {
+                text: name,
+                display: true,
+                font: { size: 20 },
+                color: "white",
+              },
               legend: {
                 display: showLegend,
                 position: "right",
                 maxHeight: 20,
                 maxWidth: 200,
+                labels: {
+                  color: "white",
+                },
               },
             },
           }}
